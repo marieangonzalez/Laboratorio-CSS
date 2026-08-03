@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--
+        La etiqueta head contiene la configuración de la página.
+        Aquí se incluye la codificación, el diseño adaptable,
+        el título y el enlace al archivo CSS.
+    -->
+
+    <meta charset="UTF-8">
+
+    <!-- Permite que la página se adapte a celulares y tabletas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Laboratorio de HTML5 y CSS</title>
+
+    <!-- Conecta el documento HTML con el archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!--
+        header representa el encabezado principal de la página.
+    -->
+    <header id="encabezado-principal">
+        <h1>Desarrollo web con HTML5 y CSS</h1>
+
+        <p>
+            Página de práctica sobre estructura semántica,
+            estilos y diseño responsivo.
+        </p>
+    </header>
+
+    <!--
+        nav contiene los enlaces de navegación de la página.
+    -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#html">HTML5</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--
+        main contiene la información principal de la página.
+    -->
+    <main>
+
+        <!--
+            section agrupa información relacionada.
+        -->
+        <section id="inicio" class="seccion destacada">
+
+            <div class="contenido-inicio">
+
+                <div>
+                    <h2>Bienvenidos a mi laboratorio</h2>
+
+                    <p>
+                        Esta página fue creada para demostrar el uso
+                        de la estructura semántica de HTML5 y los estilos CSS.
+                    </p>
+
+                    <a class="boton" href="#html">Conocer más</a>
+                </div>
+
+                <img
+                    src="imagenes/desarrollo-web.jpg"
+                    alt="Computadora utilizada para desarrollo web"
+                >
+
+            </div>
+
+        </section>
+
+        <section id="html" class="seccion">
+
+            <h2>¿Qué es HTML5?</h2>
+
+            <p>
+                HTML5 es el lenguaje utilizado para crear y organizar
+                la estructura de una página web.
+            </p>
+
+            <div class="contenedor-tarjetas">
+
+                <!--
+                    article contiene información independiente.
+                -->
+                <article class="tarjeta">
+                    <h3>Header</h3>
+                    <p>
+                        Representa el encabezado de una página o sección.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Nav</h3>
+                    <p>
+                        Contiene los enlaces principales de navegación.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Main</h3>
+                    <p>
+                        Agrupa el contenido principal de la página.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Footer</h3>
+                    <p>
+                        Representa el pie de página.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="css" class="seccion seccion-css">
+
+            <h2>¿Qué es CSS?</h2>
+
+            <p>
+                CSS permite controlar la apariencia de una página web.
+                Se utiliza para modificar colores, tamaños, márgenes,
+                fondos, bordes y posiciones.
+            </p>
+
+            <div class="lista-beneficios">
+
+                <div class="beneficio">
+                    <h3>Diseño visual</h3>
+                    <p>
+                        Permite cambiar colores, fuentes, fondos y bordes.
+                    </p>
+                </div>
+
+                <div class="beneficio">
+                    <h3>Organización</h3>
+                    <p>
+                        Facilita la distribución de los elementos.
+                    </p>
+                </div>
+
+                <div class="beneficio">
+                    <h3>Diseño responsivo</h3>
+                    <p>
+                        Adapta la página a diferentes pantallas.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contacto" class="seccion">
+
+            <h2>Formulario de contacto</h2>
+
+            <form class="formulario">
+
+                <label for="nombre">Nombre:</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                >
+
+                <label for="correo">Correo electrónico:</label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="correo@ejemplo.com"
+                    required
+                >
+
+                <label for="mensaje">Mensaje:</label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu mensaje"
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!--
+        footer representa el pie de página.
+    -->
+    <footer>
+        <p>
+            Laboratorio creado por Marieangieliz Gonzalez De Jesus
+        </p>
+
+        <p>
+            Curso de Desarrollo Web — NUC University
+        </p>
+    </footer>
+
+</body>
+
+</html>
