@@ -1,0 +1,39 @@
+Laboratorio de HTML5 y CSS
+
+Nombre:
+Marieangieliz Gonzalez De Jesus
+
+Descripción:
+Este proyecto consiste en la creación de una página web utilizando
+la estructura semántica de HTML5 y una hoja de estilos CSS externa.
+
+La página contiene las etiquetas header, nav, main, section,
+article y footer. También incluye una imagen, enlaces de navegación,
+tarjetas informativas y un formulario.
+
+En el archivo CSS se utilizaron selectores de elementos, clases,
+identificadores y pseudoclases.
+
+Se aplicaron propiedades para modificar colores, tamaños, márgenes,
+rellenos, bordes, fondos y posiciones.
+
+El modelo de caja se demuestra en las tarjetas mediante el uso
+de contenido, padding, border y margin.
+
+También se implementó diseño responsivo mediante media queries.
+La página adapta el menú, la imagen, las tarjetas y el formulario
+a diferentes tamaños de pantalla.
+
+Archivos incluidos:
+- index.html
+- estilos.css
+- READE.txt
+- Carpeta de imágenes
+- Video del laboratorio
+- Documento con enlaces de GitHub
+
+Enlace del repositorio de GitHub:
+https://marieangonzalez.github.io/Laboratorio-CSS/
+
+Enlace de GitHub Pages:
+https://github.com/marieangonzalez/Laboratorio-CSS/settings/pages
