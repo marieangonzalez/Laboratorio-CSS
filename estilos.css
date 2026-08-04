@@ -61,7 +61,7 @@ body {
 /* Pseudoclase */
 
 .menu a:hover {
-    background-color: #2f80ed;
+    background-color: #e9078b;
 }
 
 /* Secciones */
@@ -76,7 +76,7 @@ body {
 }
 
 .seccion h2 {
-    color: #173f5f;
+    color: #cc6d00;
     font-size: 2rem;
     margin-bottom: 15px;
 }
